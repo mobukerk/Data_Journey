@@ -1,0 +1,14 @@
+# Revisão básica de Python
+nome = "Felipe"
+idade = 29
+linguagens = ["Python", "SQL"]
+perfil = {"nome": nome, "idade": idade, "linguagens": linguagens}
+
+print("Meu perfil:", perfil)
+
+# Função simples
+def media(valores):
+    return sum(valores) / len(valores)
+
+notas = [8, 9, 7, 10]
+print("Média:", media(notas))
